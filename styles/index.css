@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*Composition*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*Box Model*/
+    min-height: 100vh;
+    
+
+    /*Visual*/
+    background-color: hsl(47, 88%, 63%);
+}
+
+.card {
+    /*Box Model*/
+    max-width: 325px;
+    padding: 23px;
+
+    /*Visual*/
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 10px 10px;
+}
+
+
+header > img {
+    /*Composition*/
+    display: block;
+    object-fit: none;
+
+    /*Box Model*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 200px;
+
+    /*Visual*/
+    border-radius: 15px;
+}
+
+h1, h2, p {
+    font-family: Figtree;
+}
+
+header > h1 {
+    /*Composition*/
+    display: inline-block;
+
+    /*Box Model*/
+    padding: 5px 10px;
+    margin: 23px 0 15px;
+
+    /*Visual*/
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+
+    /*Typography*/
+    font-size: .8rem;
+    font-weight: 800;
+}
+
+header > p {
+    font-size: .8rem;
+    font-weight: 100;
+}
+
+main > h2 {
+    /*Box Model*/
+    margin: 20px 0;
+
+    /*Typography*/
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+main > p {
+    /*Box Model*/
+    margin: 20px 0;
+
+    /*Visual*/
+    color: hsl(0, 0%, 50%);
+    line-height: 20px;
+
+    /*Typhography*/
+    font-size: .85rem;
+}
+
+footer > .profile {
+    /*Composition*/
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    text-align: start;
+
+    /*Typhpgraphy*/
+    font-family: Figtree;
+    font-weight: 800;
+    font-size: .9rem;
+}
+
+footer img {
+    /*Composition*/
+    float: inline-start;
+
+    /*Box Model*/
+    width: 35px;
+}
+
+address {
+    margin-top: 15px;
+}

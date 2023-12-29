@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/index.css">
   
   <title>Frontend Mentor | Blog preview card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -18,7 +18,7 @@
 
   <div class="card">
     <header>
-      <img src="assets/images/illustration-article.svg" alt="Illustration article image header">
+      <img src="assets/images/illustration-article.svg" alt="Illustration article image header" id="svg-image">
       <h1><span>Learning</span></h1>
 
       <p>Published <time datetime="2023-12-24">24 Dec 2023</time></p>
@@ -29,13 +29,12 @@
 
       <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
     </main>
-    
     <footer class="attribution">
-      <p><img src="assets/images/image-avatar.webp" alt="Avatar profile photo">Greg Hooper</p>
+      <div class="profile"><img src="assets/images/image-avatar.webp" alt="Avatar profile photo"><span>Greg Hooper</span></div>
 
       <address>
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">YEduardo Saavedra Quezada</a>.
+        Coded by <a href="#">Eduardo Saavedra Quezada</a>.
       </address>
       
     </footer>
