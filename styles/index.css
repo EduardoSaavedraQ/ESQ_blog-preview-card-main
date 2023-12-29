@@ -120,3 +120,31 @@ footer img {
 address {
     margin-top: 15px;
 }
+
+main > h2:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        min-width: 385px;
+    }
+
+    header > img {
+        height: 201px;
+    }
+
+    main > h2 {
+        font-size: 1.5rem;
+    }
+
+    main > p {
+        font-size: 1rem;
+    }
+
+    header > h1,
+    header > p {
+        font-size: .9rem;
+    }
+}
